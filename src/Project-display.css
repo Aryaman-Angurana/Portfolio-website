@@ -1,0 +1,53 @@
+.body, html{
+    display: flexbox;
+    background-image: url('https://wallpapers.com/images/high/dark-theme-background-8xlni5mkdutatc7r.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+.body2 {
+    padding: 20px;
+}
+
+.Button1 {
+    background-color: black;
+    color: white;
+    border:5%;
+    padding: 1.0%;
+    border-color: grey;
+    font-size: 90%;
+    cursor: pointer;
+    border-radius: 17px;
+}
+
+.Button1:hover {
+    background-color: grey;
+}
+
+.list {
+    list-style: none;
+    font-size: 200%;
+}
+
+.words {
+    color: white;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: grey;
+}
+
+.list a:hover {
+    color: red;
+}

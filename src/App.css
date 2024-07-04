@@ -1,0 +1,85 @@
+body, html {
+  font-family: 'Dancing Script', cursive;
+  font-size: 120%;
+  margin: 0 0 0 0;
+}
+
+
+.para {
+  font-size: 120%;
+}
+
+.my-image {
+  width: 250px;
+  height: 400px;
+  float: right;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-right: 5%;
+  font-size: 300%;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: white;
+  margin-left: 8px; /* Adds a small space between the text and the line */
+}
+
+.App {
+  color: white;
+  overflow-y: auto;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.background {
+  background-image: url('https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.footer {
+  color: #fff;
+  padding: 50px 0;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.social-icons li a:hover {
+  color: red;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
